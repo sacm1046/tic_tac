@@ -1,0 +1,6 @@
+ body{
+    background: rgb(95, 90, 85);
+}
+.col-md-5,.col-md-10 {
+    background: rgb(74, 69, 63);
+}
