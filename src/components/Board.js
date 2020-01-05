@@ -15,7 +15,7 @@ function Board(props){
             </div>
             <div className="row">
                 <div className="col-md-3"></div>
-                <div className="square col-md-2" id="btn1" onClick={(e)=>props.select(e)}></div>
+                <div className="square col-md-2" id="btn1" onClick={(e)=>props.select(e)} ></div>
                 <div className="square col-md-2 border-right border-left" id="btn2" onClick={(e)=>props.select(e)}></div>
                 <div className="square col-md-2" id="btn3" onClick={(e)=>props.select(e)}></div>
                 <div className="col-md-3"></div>
